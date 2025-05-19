@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": ".com.gctu-news-app.israeloho",
+      "bundleIdentifier": "com.israeloho.gctunewsapp",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }

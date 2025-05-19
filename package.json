@@ -21,9 +21,11 @@
     "@react-navigation/native": "^7.0.14",
     "@tanstack/react-query": "^5.74.4",
     "axios": "^1.8.4",
+    "date-fns": "^4.1.0",
     "expo": "~52.0.46",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.8",
+    "expo-dev-client": "~5.0.20",
     "expo-device": "^7.0.3",
     "expo-file-system": "~18.0.12",
     "expo-font": "~13.0.4",
@@ -49,6 +51,7 @@
     "react-native-animatable": "^1.4.0",
     "react-native-dotenv": "^3.4.11",
     "react-native-gesture-handler": "~2.20.2",
+    "react-native-image-viewing": "^0.2.2",
     "react-native-image-zoom-viewer": "^3.0.1",
     "react-native-modal": "^14.0.0-rc.1",
     "react-native-reanimated": "~3.16.1",
@@ -57,8 +60,19 @@
     "react-native-web": "~0.19.13",
     "react-native-webview": "13.12.5",
     "socket.io-client": "^4.8.1",
-    "zustand": "^5.0.3",
-    "expo-dev-client": "~5.0.20"
+    "zustand": "^5.0.3"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "react-native-image-viewing",
+          "react-native-image-zoom-viewer",
+          "moment",
+          "socket.io-client"
+        ]
+      }
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
